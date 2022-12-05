@@ -5,20 +5,27 @@
 }
 
 <h1>Pizza Sale</h1>
-<a asp-page="/Forms/CustomPizza">Custom Pizza</a>
+
 
 <a asp-page="/Checkout/Checkout">Checkout</a>
 
 <div class="container">
     <div class="row">
-        <div class="col-6 offset-3">
-            <h2>Pizza Time BITCH!!!</h2>
-            <img class="w-50 mainImage" src="~/images/Pizzas/Create.png" alt="Create your own Pizza, I ain't your mama !'" />
-            <h4 class="">Create your own Pizza</h4> <br />
-            <h5 class="">I ain't your mama </h5>
+        <div class ="col-3"></div>
+        <div class="col-3">           
+            <img class="w-75 mainImage" src="~/images/Pizzas/Create.png" alt="Create your own Pizza, I ain't your mama !'" />                
+        </div>
+        <div class="col-4"> 
+           
+            <h3 class="mainImageForText">Create your own Pizza</h3> <br />
+            <h3 class="mainImageForText">I ain't your mama </h3>
+            <h4 class="mainImageForText">Seriously... It's so Delicious !!'</h4>
+        </div>
+        <div class="col-2 my-auto">
+            <a asp-page="/Forms/CustomPizza" class="btn btn-warning font-weight-bold"> Try it ! </a>
         </div>
     </div>
     <div class="row">
-
+        
     </div>
 </div>
