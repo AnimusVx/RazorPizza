@@ -3,4 +3,34 @@
 @{
 }
 Custom Pizza
+<div class="container">
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+            <h1>Create Your Own Pizza</h1>
+            <form class="" method="post">
+                <div class="">
+                    <input asp-for="@Model.Pizza.Name" /> 
+                </div>
+                <div class="">
+                    <input asp-for="@Model.Pizza.Sauce" /> Sauce
+                </div>
+                <div class="">
+                    <input asp-for="@Model.Pizza.Cheese" /> Cheese
+                </div>
+                <div class="">
+                    <input asp-for="@Model.Pizza.Peperoni" /> Peperoni
+                </div>
+                <div class="">
+                    <button class="btn btn-outline-dark" type="submit"> Order Pizza </button> 
+                </div>
+            </form>
+            
+        </div>
+        <div class="col-3"></div>
+    </div>
+    
+</div>
+
+
 <a asp-page="/Checkout/Checkout">Checkout</a>
