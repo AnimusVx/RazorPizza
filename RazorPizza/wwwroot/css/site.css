@@ -26,6 +26,6 @@ body {
 
 .mainImageForText {
     border-radius: 20px;
-    filter: drop-shadow(0 0 10px rgb(0, 29, 255));
-    margin: 10px 0 10px 0;
+    filter: drop-shadow(0 0 10px rgb(0, 21, 255));
+    margin: 10px 10px 10px 10px;
 }

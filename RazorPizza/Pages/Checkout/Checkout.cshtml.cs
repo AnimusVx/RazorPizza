@@ -9,6 +9,7 @@ namespace RazorPizza.Pages.Checkout
         public string Name { get; set; }
         [BindProperty(SupportsGet = true)]
         public float PizzaPrice { get; set; }
+        [BindProperty(SupportsGet = true)]
         public string ImageTitle { get; set; }
 
         public void OnGet()
