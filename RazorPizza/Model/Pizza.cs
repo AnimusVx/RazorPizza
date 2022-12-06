@@ -14,5 +14,19 @@
         public bool Ham { get; set; }
         public bool Beef { get; set; }
         public float FinalPrice { get; set; }   
+
+        public override string ToString()
+        {
+            string ret = "";
+            ret += (Sauce ? "Sauce" : "") +
+                   (Cheese ? "Cheese" : "") +
+                   (Peperoni ? "Peperoni" : "") +
+                   (Mushroom ? "Mushroom" : "") +
+                   (Tuna ? "Tuna" : "") +
+                   (Pineapple ? "Pineapple" : "") +
+                   (Ham ? "Ham" : "") +
+                   (Beef ? "Beef" : "");
+            return ret;
+        }
     }
 }
