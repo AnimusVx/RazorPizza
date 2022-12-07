@@ -14,7 +14,7 @@
         <div class="col-4 my-auto mx-auto" align="center">
             <h1>Your Order</h1>
             <img class="w-75 mb-2" src="@imgPath" alt="" asp-append-version=true />
-            <a class="btn btn-outline-dark mx-auto" asp-page="Thankyou"> Confirm Order </a>
+            <a class="btn btn-outline-dark mx-auto" asp-page="Thankyou" asp-route-Name="@Model.Name" asp-route-PizzaPrice="@Model.PizzaPrice"> Confirm Order </a>
         </div>
         <div class="col-4 my-auto mx-auto" align="center">
             <p class="fw-bold"> Your Pizza Name: <span>@Model.Name</span></p>

@@ -4,7 +4,7 @@
 
 namespace RazorPizza.Migrations
 {
-    public partial class first : Migration
+    public partial class UpdatedOne : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
