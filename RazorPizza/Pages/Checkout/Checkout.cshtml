@@ -17,8 +17,8 @@
             <a class="btn btn-outline-dark mx-auto" asp-page="Thankyou"> Confirm Order </a>
         </div>
         <div class="col-4 my-auto mx-auto" align="center">
-            <p class="fw-bold"> Your Pizza Name: @Model.Name</p>
-            <p class="mt-1 fw-bold"> Your Pizza Price: @Model.PizzaPrice</p>
+            <p class="fw-bold"> Your Pizza Name: <span>@Model.Name</span></p>
+            <p class="mt-1 fw-bold"> Your Pizza Price: <span>@Model.PizzaPrice</span></p>
             <label class="fw-bold">Ingredients: </label> <p>@Model.Contains</p>
         </div>
     </div>
