@@ -3,14 +3,13 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace RazorPizza.Pages.Checkout
 {
+    [BindProperties(SupportsGet = true)]
     public class CheckoutModel : PageModel
     {
-        [BindProperty(SupportsGet = true)]
         public string Name { get; set; }
-        [BindProperty(SupportsGet = true)]
         public float PizzaPrice { get; set; }
-        [BindProperty(SupportsGet = true)]
         public string ImageTitle { get; set; }
+        public string Contains { get; set; }
 
         public void OnGet()
         {

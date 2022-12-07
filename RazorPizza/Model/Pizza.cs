@@ -18,14 +18,14 @@
         public override string ToString()
         {
             string ret = "";
-            ret += (Sauce ? "Sauce" : "") +
-                   (Cheese ? "Cheese" : "") +
-                   (Peperoni ? "Peperoni" : "") +
-                   (Mushroom ? "Mushroom" : "") +
-                   (Tuna ? "Tuna" : "") +
-                   (Pineapple ? "Pineapple" : "") +
-                   (Ham ? "Ham" : "") +
-                   (Beef ? "Beef" : "");
+            ret += (Sauce ? "Sauce " : "") +
+                   (Cheese ? "Cheese " : "") +
+                   (Peperoni ? "Peperoni " : "") +
+                   (Mushroom ? "Mushroom " : "") +
+                   (Tuna ? "Tuna " : "") +
+                   (Pineapple ? "Pineapple " : "") +
+                   (Ham ? "Ham " : "") +
+                   (Beef ? "Beef " : "");
             return ret;
         }
     }

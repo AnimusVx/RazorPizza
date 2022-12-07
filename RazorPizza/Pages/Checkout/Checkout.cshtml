@@ -3,8 +3,7 @@
 @{
     var imgPath = "~/images/Pizzas/" + Model.ImageTitle + ".png";
 }
-Checkout
-<a asp-page="Thankyou">Thank You</a>
+
 
 <div class="container align-content-center">
     <div class="row">
@@ -20,6 +19,7 @@ Checkout
         <div class="col-4 my-auto mx-auto" align="center">
             <p class="fw-bold"> Your Pizza Name: @Model.Name</p>
             <p class="mt-1 fw-bold"> Your Pizza Price: @Model.PizzaPrice</p>
+            <label class="fw-bold">Ingredients: </label> <p>@Model.Contains</p>
         </div>
     </div>
 </div>

@@ -27,7 +27,7 @@ namespace RazorPizza.Pages.Forms
             PizzaPrice += Pizza.Mushroom ? 10 : 0;
 
 
-            return RedirectToPage("/Checkout/Checkout", new { Pizza.Name, PizzaPrice });
+            return RedirectToPage("/Checkout/Checkout", new { Pizza.Name, PizzaPrice, Contains = Pizza.ToString() });
         }
     }
 }
